@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newage Apparels | The Future of Fabric</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', -apple-system, sans-serif; background-color: #ffffff; color: #1d1d1f; }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .hero-gradient { background: radial-gradient(circle at center, #ffffff 0%, #f5f5f7 100%); }
+        .apple-button { background: #0071e3; color: white; padding: 12px 24px; border-radius: 980px; transition: all 0.3s ease; }
+        .apple-button:hover { background: #0077ed; transform: scale(1.02); }
+        .card-hover { transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="glass-nav fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
+            <div class="text-xl font-semibold tracking-tight">Newage Apparels</div>
+            <div class="hidden md:flex space-x-8 text-xs font-normal text-gray-600">
+                <a href="#" class="hover:text-black transition">Innovation</a>
+                <a href="#" class="hover:text-black transition">Sustainability</a>
+                <a href="#" class="hover:text-black transition">Supply Chain</a>
+                <a href="#" class="hover:text-black transition">Partners</a>
+            </div>
+            <a href="#" class="text-xs font-semibold bg-black text-white px-4 py-1.5 rounded-full">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero-gradient pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-semibold tracking-tight mb-6">The Future of Fabric.</h1>
+            <p class="text-xl md:text-2xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Engineering precision into every stitch for the world's most iconic brands. 
+                Redefining garment manufacturing through AI and automation.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="apple-button text-lg">Explore Facilities</button>
+                <button class="text-lg text-blue-600 hover:underline">Partner with us ></button>
+            </div>
+        </div>
+        <div class="mt-20 max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1558444479-c8a51000ff9b?auto=format&fit=crop&q=80&w=2000" alt="Factory Interior" class="w-full h-[500px] object-cover">
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="p-8 rounded-3xl bg-[#f5f5f7] card-hover">
+                    <div class="text-4xl font-semibold mb-2">94.2%</div>
+                    <div class="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-2">Higg Index</div>
+                    <p class="text-gray-500 text-sm">Consistently verified FEM scores across water and energy modules.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-[#f5f5f7] card-hover">
+                    <div class="text-4xl font-semibold mb-2">Verified</div>
+                    <div class="text-sm font-semibold text-green-600 uppercase tracking-widest mb-2">CleanChain™</div>
+                    <p class="text-gray-500 text-sm">Full chemical transparency and MRSL compliance across all tiers.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-[#f5f5f7] card-hover">
+                    <div class="text-4xl font-semibold mb-2">Platinum</div>
+                    <div class="text-sm font-semibold text-orange-600 uppercase tracking-widest mb-2">LEED Certified</div>
+                    <p class="text-gray-500 text-sm">Facility operates on 60% renewable solar energy with zero-waste discharge.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-[#f5f5f7] card-hover">
+                    <div class="text-4xl font-semibold mb-2">Tier-1</div>
+                    <div class="text-sm font-semibold text-purple-600 uppercase tracking-widest mb-2">Strategic Partner</div>
+                    <p class="text-gray-500 text-sm">Exclusive manufacturing partner for Nike, H&M, and Inditex (Zara).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-gray-400 text-sm font-semibold uppercase tracking-widest mb-12">Manufacturing for Global Icons</h2>
+            <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition duration-700">
+                <span class="text-3xl font-bold italic">NIKE</span>
+                <span class="text-3xl font-bold">H&M</span>
+                <span class="text-3xl font-black tracking-tighter">ZARA</span>
+                <span class="text-2xl font-semibold">ADIDAS</span>
+                <span class="text-3xl font-serif">PUMA</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black text-white py-24 px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-16">
+            <div>
+                <h2 class="text-5xl font-semibold mb-8 leading-tight">A Commitment <br><span class="text-gray-500">to Our Planet.</span></h2>
+                <p class="text-gray-400 text-lg mb-8">
+                    Our Biological ETP (Effluent Treatment Plant) processes 4,000 cubic meters of water daily, returning it to the ecosystem cleaner than we found it.
+                </p>
+                <ul class="space-y-4 text-sm font-light text-gray-300">
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> GRS (Global Recycled Standard) Certified</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> 100% Traceable Cotton via Blockchain</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> BCI (Better Cotton Initiative) Member</li>
+                </ul>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-10 bg-blue-500/20 blur-3xl rounded-full"></div>
+                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1000" alt="Sustainability" class="relative rounded-3xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#f5f5f7] py-12 px-6">
+        <div class="max-w-7xl mx-auto text-center border-b border-gray-200 pb-10 mb-10">
+            <p class="text-gray-500 text-sm">Newage Apparels Headquarters. Dhaka | Hong Kong | London</p>
+        </div>
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between text-[11px] text-gray-500">
+            <p>Copyright © 2024 Newage Apparels Inc. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:underline">Terms of Use</a>
+                <a href="#" class="hover:underline">Sales Policy</a>
+                <a href="#" class="hover:underline">Legal</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
